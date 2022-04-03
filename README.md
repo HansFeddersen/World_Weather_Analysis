@@ -17,12 +17,20 @@ Data Bootcamp Module 6: WeatherPy with Python APIs
 
 - To start the project, first we create 2,000 random latitudes and longitudes using the function random (inlcuded in NumPy) with the following code:
 
-![This is an image](https://github.com/HansFeddersen/PyBer_Analysis/blob/main/Resources/More/libaries%2C%20load%20and%20read.png)
+![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/more/setp1/Random_coordinates_generator.png)
 
 - Then we pair each latitude and longitude created (by index) to search the nearest city and storage that city in a new list by ussing the append function:
 
-![This is an image](https://github.com/HansFeddersen/PyBer_Analysis/blob/main/Resources/More/libaries%2C%20load%20and%20read.png)
+![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/more/setp1/Nearest_city_coordinates.png)
 
+- Then we retrieve the weather data for each of the cities: 
 
+![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/more/setp1/Retrieve_weather_data.png)
 
+- Convert the data to a DataFrame:
 
+![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/more/setp1/Convert_to_DataFrame.png)
+
+- Save and convert the DataFrame as a CSV:
+
+![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/more/setp1/Convert_to_CSV.png)
