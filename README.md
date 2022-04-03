@@ -5,7 +5,7 @@ Data Bootcamp Module 6: WeatherPy with Python APIs
 
 ### The purpose of this project is to retrieve information by using APIs (application programming interface) to visualize weather data from coordinates and create a vacation itinerary according to some criteria. The used coordinates were random generated (random library), the weather information was retrieved from OpenWeatherMap (https://openweathermap.org/, and the mapping was done using Google Maps APIs.
 
-## Resoruces
+## Resources
 **For this analysis, the following resuorces were used**:
 - Data Sources: Open Weather Map, Google Maps
 - Software: Jupyter Notebook 4.8
@@ -19,7 +19,7 @@ Data Bootcamp Module 6: WeatherPy with Python APIs
 
 ![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/more/setp1/Random_coordinates_generator.png)
 
-- Then we pair each latitude and longitude created (by index) to search the nearest city and storage that city in a new list by ussing the append function:
+- Then we pair each latitude and longitude created (by index) to search the nearest city and storage that city in a new list by using the append function:
 
 ![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/more/setp1/Nearest_city_coordinates.png)
 
@@ -45,7 +45,7 @@ Data Bootcamp Module 6: WeatherPy with Python APIs
 
 ![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/more/step2/Input_criteria_DF.png)
 
--After we drop all the empty lines, we use gmpas to get the closest hotel (acording to defined parameters) to each city and store it in a new DF:
+-After we drop all the empty lines, we use gmpas to get the closest hotel (according to defined parameters) to each city and store it in a new DF:
 
 ![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/more/step2/Hotel_DF.png)
 
@@ -53,7 +53,7 @@ Data Bootcamp Module 6: WeatherPy with Python APIs
 
 ![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/more/step2/Hotels_plot.png)
 
-- At the end, the maps looks like this:
+- At the end, the map looks like this:
 
 ![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
 
@@ -63,7 +63,7 @@ Data Bootcamp Module 6: WeatherPy with Python APIs
 
 ![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/more/step3/4_cities.png)
 
-- We get the latitude and longitude for each of th 4 cities and create a layer map that shows the route between the 4 cities (in this case is the driving route):
+- We get the latitude and longitude for each of the 4 cities and create a layer map that shows the route between the 4 cities (in this case is the driving route):
 
 ![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/more/step3/driving_route.png)
 
