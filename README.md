@@ -57,8 +57,26 @@ Data Bootcamp Module 6: WeatherPy with Python APIs
 
 ![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
 
+**Step 3: Vacation Itinerary**
 
+- After we import the dependencies and load the csv, we choose 4 cities in the same country to make the itinerary. In this case, the cities are Houston, San Angelo, Desert Hot Springs and Deer Park:
 
+![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/more/step3/4_cities.png)
 
+- We get the latitude and longitude for each of th 4 cities and create a layer map that shows the route between the 4 cities (in this case is the driving route):
 
+![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/more/step3/driving_route.png)
+
+The final map is as follows:
+
+![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.png)
+
+- To draw a new map that only contains the 4 cities, we use the concat function to combine the cities into one DataFrame, then we create the info box to our map and output the new map:
+
+![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/more/step3/New_map.png)
+
+- Finally, the new map is as follows:
+
+![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
+![This is an image](https://github.com/HansFeddersen/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers_2.png)
 
